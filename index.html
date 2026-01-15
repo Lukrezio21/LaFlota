@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Flota Francotirador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Hundir la Flota</h1>
+        <div id="stats">
+            <span>Nivel: <strong id="nivel">1</strong></span>
+            <span>Munición: <strong id="municion">40</strong></span>
+            <span>Barcos: <strong id="barcos-restantes">5</strong></span>
+        </div>
+     
+        <canvas id="tablero"></canvas>
+
+        <div id="mensaje-flotante" class="oculto">
+            <h2 id="texto-final"></h2>
+            <button onclick="iniciarJuego()">Jugar de Nuevo</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
